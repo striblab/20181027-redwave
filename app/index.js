@@ -230,6 +230,7 @@ function trumpChart() {
 
 trumpChart();
 
+//split ticket chart
 function chartShift() {
     var padding = {
         top: 20,
@@ -338,7 +339,7 @@ function chartShift() {
         },
         tooltip: {
             contents: function(d, defaultTitleFormat, defaultValueFormat, color) {
-                return '<div class="chart-tooltip gray5"><span class="tooltip-label">' + d[0].x + ':</span></div><div class="chart-tooltip gray5"><span class="tooltip-label">' + d[0].id + ':</span>' +
+                return '<div class="chart-tooltip gray5"><span class="tooltip-label">' + d[0].x + ':</span>' +
                     '<span class="tooltip-value">' + defaultValueFormat(d[0].value) + '</span></div>';
             }
         }
