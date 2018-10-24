@@ -202,7 +202,7 @@ function trumpChart() {
             },
             x: {
                 type: 'category',
-                categories: ['STATEWIDE', 'CLINTON VOTERS', 'DFL', 'IND', 'CITIES', 'SUBURBS', 'SOUTHERN MN', 'NORTHERN MN', 'TRUMP VOTERS', 'GOP']
+                categories: ['STATEWIDE', 'CLINTON VOTERS', 'DFL', 'INDEPENDENTS', 'TWIN CITIES', 'METRO SUBURBS', 'SOUTHERN MN', 'NORTHERN MN', 'TRUMP VOTERS', 'GOP']
             }
         },
         grid: {
