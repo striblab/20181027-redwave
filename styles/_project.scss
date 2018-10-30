@@ -165,10 +165,9 @@ h2 {
   .triad .counties {
       pointer-events:all !important;
  }
-  .axisLabel {
-      text-align:center;
-      font-size:0.7em;
- }
+  #partyChart {
+    pointer-events:none;
+  }
   #chartAxis {
       height:500px !important;
  }

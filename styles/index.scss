@@ -27,6 +27,49 @@ $selector-wrapper: '.strib-styles.ssa.ssb.ssc';
   @import 'project';
 }
 
+.gray1 {
+  fill: #ddd;
+  background-color: #ddd;
+  color: #fff;
+  font-weight: bold;
+  stroke: #ddd !important;
+}
+.gray2 {
+  fill: #CCC;
+  background-color: #CCC;
+  color: #fff;
+  font-weight: bold;
+  stroke: #CCC !important;
+}
+.gray3 {
+  fill: #969696;
+  background-color: #969696;
+  color: #fff;
+  font-weight: bold;
+  stroke: #969696 !important;
+}
+.gray4 {
+  fill: #636363;
+  background-color: #636363;
+  color: #fff;
+  font-weight: bold;
+  stroke: #636363 !important;
+}
+.gray5 {
+  fill: #252525;
+  background-color: #252525;
+  color: #fff;
+  font-weight: bold;
+  stroke: #252525 !important;
+}
+.red3 {
+  fill: #F2614C;
+  background-color: #F2614C;
+  color: white !important;
+  pointer-events: all;
+  font-weight: bold;
+  stroke: #F2614C !important;
+}
 .r4 {
   background-color: #8C1B17;
   fill: #8C1B17 !important;

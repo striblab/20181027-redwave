@@ -202,7 +202,7 @@ function trumpChart() {
             },
             x: {
                 type: 'category',
-                categories: ['STATEWIDE', 'CLINTON VOTERS', 'DFL', 'INDEPENDENTS', 'TWIN CITIES', 'METRO SUBURBS', 'SOUTHERN MN', 'NORTHERN MN', 'TRUMP VOTERS', 'GOP']
+                categories: ['Statewide', 'Clinton Voters', 'DFL', 'Independents', 'Hennepin/Ramsey', 'Metro Suburbs', 'Southern MN', 'Northern MN', 'Trump Voters', 'GOP']
             }
         },
         grid: {
@@ -283,7 +283,7 @@ function chartShift() {
                 if (d.x == 2016) {
                     return 6;
                 } else {
-                    return 0;
+                    return 2;
                 }
             }
         },
