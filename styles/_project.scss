@@ -142,7 +142,7 @@ h2 {
  }
   .empty {
       fill:transparent !important;
-      pointer-events:none !important;
+      pointer-events:none !important; 
  }
   .adjacent {
       display:inline-block;
@@ -165,8 +165,8 @@ h2 {
   .triad .counties {
       pointer-events:all !important;
  }
-  #partyChart {
-    pointer-events:none;
+  #partyChart, #partyChart svg, .overlay {
+    pointer-events:none !important;
   }
   #chartAxis {
       height:500px !important;
