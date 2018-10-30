@@ -383,7 +383,7 @@ function mapColorDemo(d, subject, race, dataCompare) {
             if (dataCompare[i].DistrictNumber == d.properties.COUNTYNAME) {
                 if (subject == "flips") {
                     if (dataCompare[i].shaded == 3) {
-                        return "r4";
+                        return "r3";
                     } else if (dataCompare[i].shaded == 2) {
                         return "red3";
                     } else if (dataCompare[i].shaded == 1) {
