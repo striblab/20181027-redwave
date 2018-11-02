@@ -1,7 +1,7 @@
 {
   "about this file": "This document defines configuration for this project that is not content or copy.",
 
-  "projectIdentifier": "redwave",
+  "projectIdentifier": "20181027-redwave",
 
   "data": {
     "content": "./content.json",
