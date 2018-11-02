@@ -9,9 +9,9 @@
   },
 
   "cms": {
-    "id": "498034921",
-    "pages": ["498034921"],
-    "lcds": ["498035351"],
+    "id": "498035111",
+    "pages": ["498035601"],
+    "lcds": ["498035601"],
     "rewriteMapping": {
       "article-lcd-body-content": "_index-content.html"
     }
