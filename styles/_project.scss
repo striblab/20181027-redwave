@@ -86,13 +86,15 @@ h2 {
   cursor:pointer;
 }
 .bluedrop {
-  font-family: "Benton Sans", Helvetica, Arial, sans-serif;
   color: #3f88c5;
 }
 .reddrop {
-  font-family: "Benton Sans", Helvetica, Arial, sans-serif;
-  color: #8C1B17 !important;
-  text-decoration:underline;
+  border-bottom: 3px solid #8C1B17 !important;
+  line-height:85%;
+}
+.smallarrow {
+  font-size:0.5em;
+  margin-left:5px;
 }
 
 // base datavix styles
@@ -355,14 +357,16 @@ h2 {
       padding: 0 7px;
       margin-bottom: 3px;
  }
-  .chatter {
-      line-height:140%;
-      margin-bottom:12px;
- }
-  .chartTitle {
-      font-size:1.5em;
-      font-weight:900;
- }
+ .chatter {
+  font-size:0.8em;
+  font-family: "Benton Sans", Helvetica, Arial, sans-serif !important;
+  color:#333;
+  margin-bottom:20px;
+}
+.chartTitle {
+  font-size:1.1em;
+  font-weight:900;
+}
   .map {
       text-align:center;
  }
